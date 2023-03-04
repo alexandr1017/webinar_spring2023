@@ -1,4 +1,4 @@
-package com.example.demo.wospring.model;
+package com.example.demo.spring.model;
 
 public record Person(String name, int age) {
 }

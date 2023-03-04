@@ -1,4 +1,4 @@
-package com.example.demo.wospring.repository;
+package com.example.demo.spring.repository;
 
 import java.util.Optional;
 

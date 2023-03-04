@@ -1,4 +1,4 @@
-package com.example.demo.wospring.dto;
+package com.example.demo.spring.dto;
 
 import java.util.List;
 

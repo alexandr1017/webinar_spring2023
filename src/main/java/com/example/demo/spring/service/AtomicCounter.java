@@ -1,7 +1,10 @@
-package com.example.demo.wospring.service;
+package com.example.demo.spring.service;
+
+import org.springframework.stereotype.Component;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+@Component
 public class AtomicCounter implements Counter {
 
     private final AtomicInteger atomicInteger;

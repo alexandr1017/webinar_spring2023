@@ -1,12 +1,15 @@
-package com.example.demo.wospring.service;
+package com.example.demo.spring.service;
 
-import com.example.demo.wospring.dto.Result;
-import com.example.demo.wospring.model.Person;
-import com.example.demo.wospring.repository.Storage;
+import com.example.demo.spring.model.Person;
+import com.example.demo.spring.repository.Storage;
+import com.example.demo.spring.dto.Result;
+import com.example.demo.spring.service.PersonService;
+import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 import java.util.List;
 
+@Service
 public class PersonServiceImpl implements PersonService {
 
     public static final String NOT_FOUND_TEXT_ERROR = "не найдена запись с %d";

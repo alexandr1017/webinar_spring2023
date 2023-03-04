@@ -1,4 +1,4 @@
-package com.example.demo.wospring.service;
+package com.example.demo.spring.service;
 
 public interface Counter {
     int next();

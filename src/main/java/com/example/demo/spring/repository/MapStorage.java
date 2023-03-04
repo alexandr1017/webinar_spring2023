@@ -1,11 +1,13 @@
-package com.example.demo.wospring.repository;
+package com.example.demo.spring.repository;
 
-import com.example.demo.wospring.service.Counter;
+import com.example.demo.spring.service.Counter;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
+@Repository
 public class MapStorage implements Storage{
 
     public final Map<Integer, String> vault=
