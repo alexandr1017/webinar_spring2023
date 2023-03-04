@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-@Repository
+
 public class MapStorage implements Storage{
 
     public final Map<Integer, String> vault=

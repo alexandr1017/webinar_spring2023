@@ -1,3 +1,16 @@
 counter:
   step: 2
   initialValue: 4
+
+server:
+  port: 8888
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5999/
+    username: postgres
+    password: 12345678
+  jpa:
+    hibernate:
+      ddl-auto: update
+
